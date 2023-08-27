@@ -3,7 +3,7 @@ import DashboardCard from "@/components/common/Card/DashboardCard/DashboardCard"
 import { DashboardCardKey, DashboardConfiguration } from "./common/dashboardTypes";
 
 
-const cardOrder: DashboardCardKey[] = ['PROPERTY', 'USERS', 'BOOKING','CANCELLED_BOOKING','REGISTERED_USERS', 'REVENUE',   'AVERAGE_USERS_BOOKING'];
+const cardOrder: DashboardCardKey[] = ['BOOKING','CANCELLED_BOOKING','REGISTERED_USERS', 'REVENUE'];
 
 export default function DashboardModal() {
     return (

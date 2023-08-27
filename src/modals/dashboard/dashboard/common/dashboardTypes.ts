@@ -42,13 +42,13 @@ export const DashboardConfiguration: Record<DashboardCardKey, DashboardCardConfi
     icon: 'People',
   },
   REVENUE: {
-    title: 'Total Revenue Generated (Convenience Charge)',
+    title: 'Total Revenue Generated',
     className: 'bg-[#C7A549]',
     iconClassName: 'bg-[#846D2E]',
     icon: 'BarChart',
   },
   REGISTERED_USERS: {
-    title: 'Total Users registered within a week',
+    title: 'Todays Check_In',
     className: 'bg-[#5B83D9]',
     iconClassName: 'bg-[#385593]',
     icon: 'GroupsSharp',

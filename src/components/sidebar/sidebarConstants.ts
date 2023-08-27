@@ -20,10 +20,10 @@ export const sidebarOptions: SidebarOptionsT[] = [
         value: 'DASHBOARD'
    
     },
-    {
-        label: 'User Management',
-        value: 'USER MANAGEMENT'
-    },
+    // {
+    //     label: 'User Management',
+    //     value: 'USER MANAGEMENT'
+    // },
     {
         label: 'Property Management',
         value: 'PROPERTY MANAGEMENT'
@@ -32,26 +32,26 @@ export const sidebarOptions: SidebarOptionsT[] = [
         label: 'Booking Management',
         value: 'BOOKING MANAGEMENT'
     },
-    {
-        label: 'Payment Management',
-        value: 'PAYMENT MANAGEMENT'
-    },
-    {
-        label: 'Report and Analysis',
-        value: 'REPORT AND ANALYSIS'
-    },
-    {
-        label: 'Notification Management',
-        value: 'NOTIFICATION MANAGEMENT',
-    },
-    {
-        label: 'Content Management',
-        value: 'CONTENT MANAGEMENT'
-    },
-    {
-        label:'Configuration Settings',
-        value:'CONFIGURATION MANAGEMENT'
-    }
+    // {
+    //     label: 'Payment Management',
+    //     value: 'PAYMENT MANAGEMENT'
+    // },
+    // {
+    //     label: 'Report and Analysis',
+    //     value: 'REPORT AND ANALYSIS'
+    // },
+    // {
+    //     label: 'Notification Management',
+    //     value: 'NOTIFICATION MANAGEMENT',
+    // },
+    // {
+    //     label: 'Content Management',
+    //     value: 'CONTENT MANAGEMENT'
+    // },
+    // {
+    //     label:'Configuration Settings',
+    //     value:'CONFIGURATION MANAGEMENT'
+    // }
 ];
 
 export const sidebarPaths: Record<SidebarOptionValue, string> = {
