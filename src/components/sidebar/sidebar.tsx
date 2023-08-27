@@ -62,7 +62,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     ))}
                 </ul>
 
-                <div
+                {/* <div
                     className={`absolute ml-2 bottom-0 left-0 p-3 cursor-pointer ${
                         selectedOption === 'CONFIGURATION MANAGEMENT' ? 'bg-[#3572F4] text-white border-b-2 border-[#3572F4] rounded-b-md' : ''
                     }`}
@@ -72,7 +72,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                         <PrIcon name={'Settings'}></PrIcon>
                         <span>{sidebarOptions[sidebarOptions?.length-1].label}</span>
                     </div>
-                </div>
+                </div> */}
             </aside>
             <main className="flex-1 bg-[#f6f7fa] w-full h-full">
              <ProfileArea></ProfileArea>
