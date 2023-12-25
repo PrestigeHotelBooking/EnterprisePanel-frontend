@@ -1,17 +1,17 @@
-export type SidebarOptionValue = 
-    | 'DASHBOARD'
-    | 'USER MANAGEMENT'
-    | 'PROPERTY MANAGEMENT'
-    | 'BOOKING MANAGEMENT'
-    | 'PAYMENT MANAGEMENT'
-    | 'REPORT AND ANALYSIS'
-    | 'NOTIFICATION MANAGEMENT'
-    | 'CONTENT MANAGEMENT'
-    | 'CONFIGURATION MANAGEMENT';
+export type SidebarOptionValue =
+  | 'DASHBOARD'
+  | 'USER MANAGEMENT'
+  | 'PROPERTY MANAGEMENT'
+  | 'BOOKING MANAGEMENT'
+  | 'PAYMENT MANAGEMENT'
+  | 'REPORT AND ANALYSIS'
+  | 'NOTIFICATION MANAGEMENT'
+  | 'CONTENT MANAGEMENT'
+  | 'CONFIGURATION MANAGEMENT';
 
 interface SidebarOptionsT {
-    label: string;
-    value: SidebarOptionValue;
+  label: string;
+  value: SidebarOptionValue;
 }
 
 export const sidebarOptions: SidebarOptionsT[] = [
@@ -55,16 +55,13 @@ export const sidebarOptions: SidebarOptionsT[] = [
 ];
 
 export const sidebarPaths: Record<SidebarOptionValue, string> = {
-    'DASHBOARD': '/dashboard',
-    'USER MANAGEMENT': '/dashboard/user',
-    'PROPERTY MANAGEMENT': '/dashboard/property',
-    'BOOKING MANAGEMENT': '/dashboard/booking',
-    'PAYMENT MANAGEMENT': '/dashboard/payment',
-    'REPORT AND ANALYSIS': '/dashboard/report',
-    'NOTIFICATION MANAGEMENT': '/dashboard/notification',
-    'CONTENT MANAGEMENT': '/dashboard/content',
-    'CONFIGURATION MANAGEMENT':'/dashboard/configure'
+  DASHBOARD: '/dashboard',
+  'USER MANAGEMENT': '/dashboard/user',
+  'PROPERTY MANAGEMENT': '/dashboard/property',
+  'BOOKING MANAGEMENT': '/dashboard/booking',
+  'PAYMENT MANAGEMENT': '/dashboard/payment',
+  'REPORT AND ANALYSIS': '/dashboard/report',
+  'NOTIFICATION MANAGEMENT': '/dashboard/notification',
+  'CONTENT MANAGEMENT': '/dashboard/content',
+  'CONFIGURATION MANAGEMENT': '/dashboard/configure',
 };
-
-
-
