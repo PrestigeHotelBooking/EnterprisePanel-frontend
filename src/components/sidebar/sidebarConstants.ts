@@ -7,7 +7,8 @@ export type SidebarOptionValue =
   | 'REPORT AND ANALYSIS'
   | 'NOTIFICATION MANAGEMENT'
   | 'CONTENT MANAGEMENT'
-  | 'CONFIGURATION MANAGEMENT';
+  | 'CONFIGURATION MANAGEMENT'
+  | 'INVENTORY MANAGEMENT';
 
 interface SidebarOptionsT {
   label: string;
@@ -32,6 +33,10 @@ export const sidebarOptions: SidebarOptionsT[] = [
         label: 'Booking Management',
         value: 'BOOKING MANAGEMENT'
     },
+    {
+      label:'Inventory Management',
+      value:"INVENTORY MANAGEMENT"
+    }
     // {
     //     label: 'Payment Management',
     //     value: 'PAYMENT MANAGEMENT'
@@ -57,6 +62,7 @@ export const sidebarOptions: SidebarOptionsT[] = [
 export const sidebarPaths: Record<SidebarOptionValue, string> = {
   DASHBOARD: '/dashboard',
   'USER MANAGEMENT': '/dashboard/user',
+  'INVENTORY MANAGEMENT':'/dashboard/inventory',
   'PROPERTY MANAGEMENT': '/dashboard/property',
   'BOOKING MANAGEMENT': '/dashboard/booking',
   'PAYMENT MANAGEMENT': '/dashboard/payment',

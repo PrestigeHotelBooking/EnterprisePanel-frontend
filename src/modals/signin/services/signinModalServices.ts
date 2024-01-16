@@ -4,7 +4,7 @@ import { CONSTANTS } from '@/modals/common/constants';
 import Cookies from 'js-cookie';
 
 export const SigninUserService = async (email: string, password: string) => {
-  const loggedIn = await BackendPost(ENDPOINTS.LOGIN.SIGNIN, { email: email, password: password });
+  const loggedIn = await BackendPost(ENDPOINTS.LOGIN.ADMIN, { email: email, password: password });
 
   if (loggedIn.success) {
     const { token, refresh_token } = loggedIn.responseData;

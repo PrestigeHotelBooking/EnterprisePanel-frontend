@@ -438,14 +438,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-<<<<<<< HEAD
-=======
 "@panva/hkdf@^1.0.2":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@panva/hkdf/-/hkdf-1.1.1.tgz#ab9cd8755d1976e72fc77a00f7655a64efe6cd5d"
   integrity sha512-dhPeilub1NuIG0X5Kvhh9lH4iW3ZsHlnzwgwbOlgwQ2wG1IqFzsgHqmKPk3WzsdWAeaxKJxgM0+W433RmN45GA==
 
->>>>>>> 4887027315e95278c20ad2519301e048e36b97e3
 "@popperjs/core@^2.11.8", "@popperjs/core@^2.9.2":
   version "2.11.8"
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz"
@@ -1226,14 +1223,11 @@ chalk@^5.0.1:
   resolved "https://registry.npmjs.org/chalk/-/chalk-5.3.0.tgz"
   integrity sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==
 
-<<<<<<< HEAD
-=======
 change-emitter@^0.1.2:
   version "0.1.6"
   resolved "https://registry.npmjs.org/change-emitter/-/change-emitter-0.1.6.tgz"
   integrity sha512-YXzt1cQ4a2jqazhcuSWEOc1K2q8g9H6eWNsyZgi640LDzRWVQ2eDe+Y/kVdftH+vYdPF2rgDb3dLdpxE1jvAxw==
 
->>>>>>> 4887027315e95278c20ad2519301e048e36b97e3
 chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz"
@@ -2022,8 +2016,6 @@ get-stream@^6.0.0:
   resolved "https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
-<<<<<<< HEAD
-=======
 get-symbol-description@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/get-symbol-description/-/get-symbol-description-1.0.0.tgz#7fdb81c900101fbd564dd5f1a30af5aadc1e58d6"
@@ -2039,7 +2031,6 @@ get-tsconfig@^4.7.0:
   dependencies:
     resolve-pkg-maps "^1.0.0"
 
->>>>>>> 4887027315e95278c20ad2519301e048e36b97e3
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz"
@@ -2713,11 +2704,7 @@ mimic-fn@^2.1.0:
   resolved "https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
-<<<<<<< HEAD
-minimatch@3.1.2, minimatch@^3.0.4:
-=======
 minimatch@3.1.2, minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
->>>>>>> 4887027315e95278c20ad2519301e048e36b97e3
   version "3.1.2"
   resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz"
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
@@ -3121,9 +3108,6 @@ postcss@^8.4.23, postcss@^8.4.27:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-<<<<<<< HEAD
-prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
-=======
 preact-render-to-string@^5.1.19:
   version "5.2.6"
   resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-5.2.6.tgz#0ff0c86cd118d30affb825193f18e92bd59d0604"
@@ -3159,7 +3143,6 @@ promise@^7.1.1:
     asap "~2.0.3"
 
 prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
->>>>>>> 4887027315e95278c20ad2519301e048e36b97e3
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -3459,8 +3442,6 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-<<<<<<< HEAD
-=======
 safe-array-concat@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/safe-array-concat/-/safe-array-concat-1.0.1.tgz#91686a63ce3adbea14d61b14c99572a8ff84754c"
@@ -3471,7 +3452,6 @@ safe-array-concat@^1.0.1:
     has-symbols "^1.0.3"
     isarray "^2.0.5"
 
->>>>>>> 4887027315e95278c20ad2519301e048e36b97e3
 safe-buffer@5.1.2, safe-buffer@^5.0.1:
   version "5.1.2"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
