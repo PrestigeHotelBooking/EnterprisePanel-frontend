@@ -59,6 +59,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   {option.value === 'REPORT AND ANALYSIS' && <PrIcon name={'BarChart2'}></PrIcon>}
                   {option.value === 'NOTIFICATION MANAGEMENT' && <PrIcon name={'Bell'}></PrIcon>}
                   {option.value === 'CONTENT MANAGEMENT' && <PrIcon name={'Edit'}></PrIcon>}
+                  {option.value === 'INVENTORY MANAGEMENT' && <PrIconV2 name={'Inventory'}/>}
                   <span>{option.label}</span>
                 </li>
               ),

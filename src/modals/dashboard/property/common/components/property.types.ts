@@ -78,5 +78,5 @@ export const mealTypes: OptionT[] = [
   { label: 'À la carte', value: 'a_la_carte' },
   { label: 'No Meals', value: 'no_meals' },
   { label: 'Special Diet Options', value: 'special_diet' },
-  // Add more meal options as needed
+
 ];
